@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-radius: 20 20 20 20;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quizz.QuizController">
+   <children>
+      <Label fx:id="question" layoutX="76.0" layoutY="84.0" prefHeight="52.0" prefWidth="463.0" text="1.How many consonant are there in the English alphabet?">
+         <font>
+            <Font name="Open Sans Condensed Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="opt1" layoutX="69.0" layoutY="174.0" mnemonicParsing="false" onAction="#opt1clicked" prefHeight="52.0" prefWidth="174.0" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #0e72bf;" text="Button" textFill="#0d1820">
+         <font>
+            <Font name="Nunito Black" size="23.0" />
+         </font></Button>
+      <Button fx:id="opt2" layoutX="69.0" layoutY="264.0" mnemonicParsing="false" onAction="#opt2clicked" prefHeight="52.0" prefWidth="174.0" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #0e72bf;" text="Button">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="opt3" layoutX="346.0" layoutY="264.0" mnemonicParsing="false" onAction="#opt3clicked" prefHeight="52.0" prefWidth="174.0" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #0e72bf;" text="Button">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="opt4" layoutX="346.0" layoutY="174.0" mnemonicParsing="false" onAction="#opt4clicked" prefHeight="52.0" prefWidth="174.0" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #0e72bf;" text="Button">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

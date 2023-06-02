@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minWidth="130.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-size: 16px; -fx-progress-color: red; -fx-font-weght: 900; -fx-font-size: 16 px;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quizz.Rezult">
+   <children>
+      <Label layoutX="240.0" layoutY="44.0" prefHeight="38.0" prefWidth="120.0" text="Rezult">
+         <font>
+            <Font name="Algerian" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="remark" layoutX="70.0" layoutY="93.0" prefHeight="67.0" prefWidth="459.0" text="Very good work! This is your hard work and dedication which helped you to reach the zeinth of success. " wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="marks" layoutX="70.0" layoutY="201.0" prefHeight="74.0" prefWidth="84.0" style="-fx-background-color: #ae2; -fx-background-radius: 20px;" text=" 9/10" wrapText="true">
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <ProgressIndicator fx:id="correct_progress" layoutX="222.0" layoutY="173.0" minHeight="130.0" minWidth="130.0" prefHeight="57.0" prefWidth="34.0" progress="0.9" style="-fx-background-color: #ae2; -fx-background-size: 18px; -fx-progress-color: green; -fx-font-size: 18px; -fx-background-radius: 16px; -fx-border-radius: 16px; -fx-box-border: green;">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </ProgressIndicator>
+      <ProgressIndicator fx:id="wrong_progress" layoutX="421.0" layoutY="173.0" minHeight="130.0" minWidth="130.0" prefHeight="57.0" prefWidth="34.0" progress="0.1" style="-fx-background-color: #FFCDD2; -fx-font-weght: 900; -fx-background-size: 18px; -fx-progress-color: red; -fx-font-size: 18px; -fx-background-radius: 16px; -fx-border-radius: 16px; -fx-box-border: red;">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </ProgressIndicator>
+      <Accordion layoutX="70.0" layoutY="278.0" />
+      <Label fx:id="marksText" layoutX="36.0" layoutY="323.0" prefHeight="38.0" prefWidth="152.0" text="9  Marks  Obtaineed" textFill="#463707">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+      <Label fx:id="correcttext" layoutX="410.0" layoutY="323.0" prefHeight="38.0" prefWidth="152.0" text="Incorrect  Answer: 1" textFill="#d4221a">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="wrongtext" layoutX="217.0" layoutY="323.0" prefHeight="38.0" prefWidth="140.0" text="Correct Answer: 9  " textFill="#08c92c">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="1.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>
